@@ -1051,7 +1051,7 @@ body {
 
 @media screen and (max-width: 991px) {
   .home-hero {
-    min-height: 665px;
+    height: 100vh;
   }
   .button {
     margin-right: 8px;
@@ -1096,7 +1096,7 @@ body {
     font-size: 35px;
   }
   .section {
-    height: 105vh;
+    height: 100vh;
   }
   .heading-4.about-header {
     margin-top: 95px;
@@ -1238,6 +1238,7 @@ body {
     background-position: 50% 50%;
     background-size: cover;
   }
+
   .button {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1363,6 +1364,7 @@ body {
     font-size: 38px;
     text-align: center;
   }
+
   .navbar {
     padding: 2px 0px;
   }
@@ -1428,23 +1430,22 @@ body {
     font-size: 25px;
   }
   .section {
-    height: 125vh;
+    height: 100vh;
   }
   .heading-4.about-header {
     margin-top: 80px;
     font-size: 37px;
   }
   .heading-4.product-header {
-    margin-top: 125px;
+    margin-top: 110px;
     font-size: 37px;
   }
   .heading-5.about-heading {
-    margin-top: 8px;
+    margin-top: 18px;
     font-size: 14px;
     text-align: center;
   }
   .heading-5.product-heading {
-    margin-bottom: 20px;
     font-size: 13px;
     text-align: center;
   }
@@ -1461,7 +1462,7 @@ body {
   }
   .paragraph-2.product-paragraph {
     max-width: 75%;
-    margin-top: 45px;
+    margin-top: 20px;
     margin-right: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -1475,7 +1476,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 465px;
+    height: 420px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1503,7 +1504,7 @@ body {
     font-weight: 700;
   }
   .section-2 {
-    height: 143vh;
+    height: 123vh;
     padding-top: 0px;
   }
   .image-6 {
@@ -1545,13 +1546,15 @@ body {
   .italic-text {
     font-size: 14px;
   }
-  .about-icon.w--current {
-    margin-top: -10px;
-    margin-bottom: 0px;
+
+  .about-icon {
+    display: none;
   }
-  .about-icon.product {
-    margin-top: 20px;
+
+  .about-icon-container {
+    display: none;
   }
+
   .text-span-8 {
     font-size: 45px;
   }
